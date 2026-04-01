@@ -1,5 +1,18 @@
-Le role d'un analyst SOC 1 est de filter les alertes de sécurité dans sont dashboard via généralement SIEM
-Les alertes sont traité par ordre de gravité est par ancieneté
-L'analyst définit si l'alerte est un faux ou un vrai positif
-Dans le cas d'un vrai positif il détermine si l'alerte doit être escaladée au SOC L2
-Dans le cadre d'une escalade, le SOC 1 prend soin de noter tous les détails concernant l'alerte en suivant les 5W (WHO, WHERE, WHEN, WHY, WHAT)
+Day 1 - SOC Analyst Level 1
+
+Role of a SOC L1 Analyst:
+
+- Monitor security alerts via SIEM (Security Information and Event Management)
+- Analyze alerts based on severity and priority
+- Identify false positives vs true positives
+- Investigate suspicious activities using available data (logs, users, systems)
+
+Escalation Process:
+
+- If a true positive is confirmed, escalate to SOC L2
+- Provide detailed context using the 5W method:
+  - WHO: affected user or system
+  - WHAT: type of alert or activity
+  - WHEN: timestamp of the event
+  - WHERE: source/destination
+  - WHY: reason for escalation / suspicion
