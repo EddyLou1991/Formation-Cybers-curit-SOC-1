@@ -1,0 +1,11 @@
+SOC Scenario - Basic Investigation
+
+- Alert: Suspicious login detected
+- User: unknown IP
+- Action:
+  - Check login time
+  - Check user activity
+  - Check IP reputation
+
+Conclusion:
+- Potential suspicious activity → escalate
